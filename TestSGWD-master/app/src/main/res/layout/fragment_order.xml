@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/background_white">
+
+
+
+            <LinearLayout
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/logosaigonwindowgroup" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SAIGON WINDOW"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="CÔNG TY CỔ PHẦN CỬA LƯỚI SÀI GÒN"
+                    android:textSize="10sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/vienxam">
+
+                        <Spinner
+                            android:id="@+id/spinnerTypeDoor"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp">
+
+                        </Spinner>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/vienxam">
+
+                    <Spinner
+                        android:id="@+id/spinnerProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp">
+
+                    </Spinner>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/vienxam">
+                    <Spinner
+                        android:id="@+id/spinnerColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp">
+
+                    </Spinner>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_weight="5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Chiều cao"
+                                    android:textSize="14sp"
+                                    android:textColor="#000000"/>
+
+                                <TextView
+                                    android:layout_width="5dp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Chiều ngang"
+                                    android:textSize="14sp"
+                                    android:textColor="#000000"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="numberDecimal"
+                                    android:background="@drawable/vienxam"
+                                    android:textSize="14sp"/>
+
+                                <TextView
+                                    android:layout_width="5dp"
+                                    android:layout_height="match_parent"/>
+
+                                <EditText
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/vienxam"
+                                    android:inputType="numberDecimal"
+                                    android:textSize="14sp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Số lượng"
+                                android:textSize="14sp"
+                                android:textColor="#000000"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <Button
+                                    android:id="@+id/btn_subtraction"
+                                    android:layout_weight="4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="28dp"
+                                    android:text="-"
+                                    android:textColor="#FFFFFF"
+                                    android:background="@drawable/background_orange"/>
+
+                                <EditText
+                                    android:id="@+id/tv_quantity"
+                                    android:inputType="number"
+                                    android:layout_weight="2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/vienxam"
+                                    android:gravity="center"
+                                    android:text=""
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp"/>
+
+                                <Button
+                                    android:id="@+id/btn_add"
+                                    android:layout_weight="4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="28dp"
+                                    android:text="+"
+                                    android:textColor="#FFFFFF"
+                                    android:background="@drawable/background_orange" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tiền"
+                                android:textSize="14sp"
+                                android:textColor="#000000"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:textColor="#000000"
+                                android:text=""
+                                android:gravity="center"
+                                android:background="@drawable/background_orange"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tổng giá trị đơn hàng"
+                                android:textSize="14sp"
+                                android:textColor="#000000"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:textColor="#000000"
+                                android:text=""
+                                android:gravity="center"
+                                android:background="@drawable/background_orange"/>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_weight="2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/lights"/>
+                            <TextView
+                                android:layout_weight="8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_orange"
+                            android:text="thêm vào đơn hàng" />
+
+                        <TextView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_orange"
+                            android:text="đặt hàng" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <ListView
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/viencam">
+
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
